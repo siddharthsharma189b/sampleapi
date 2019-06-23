@@ -1,5 +1,5 @@
 const express = require('express');
-const joi = require('joi');
+const Joi = require('joi');
 const app = express();
 
 // sets request.bosy property after parsing the JSON in the input
